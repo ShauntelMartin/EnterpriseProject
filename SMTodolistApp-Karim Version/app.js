@@ -63,30 +63,14 @@ function generateQRAndSave(qrFileName, urlFileName) {
 }
 
 const adj = [
-  "abandoned",
-  "able",
-  "absolute",
-  "adorable",
-  "adventurous",
-  "academic",
-  "acceptable",
-  "acclaimed",
-  "accomplished",
-  "accurate",
-  "aching"
+  "abandoned", "able", "absolute", "adorable", "adventurous", "academic",
+  "acceptable", "acclaimed", "accomplished", "accurate", "aching"
 
 ];
 
 const noun = [
-  "aardvark",
-  "abacus",
-  "abbey",
-  "abdomen",
-  "abolishment",
-  "abroad",
-  "abyssinian",
-  "accelerant",
-  "accelerator"
+  "aardvark", "abacus", "abbey", "abdomen", "abolishment", "abroad", "abyssinian",
+  "accelerant", "accelerator"
 ];
 
 
