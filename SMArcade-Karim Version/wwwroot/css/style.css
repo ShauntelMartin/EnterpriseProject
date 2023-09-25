@@ -1,0 +1,171 @@
+  body {
+    text-align: center !important ;
+    color: #000000 !important ;
+    margin: 0 !important ;
+    padding: 0 !important ;
+  }
+  
+  #level-title {
+    font-size: 3rem !important ;
+    margin: 0 !important ;
+  }
+  
+  .container {
+    display: block !important ;
+    width: 75% !important ;
+    margin: auto !important ;
+  }
+  
+  .btn {
+    margin: 20px !important ;
+    display: inline-block !important ;
+    height: 150px !important ;
+    width: 150px !important ;
+    border: 5px solid #000 !important ;
+    border-radius: 50% !important ;
+    cursor: pointer !important ;
+    transition: background-color 0.2s !important ;
+  }
+
+  .blue-button {
+    background-color: #d41511 !important ;
+    color: #fff !important ;
+    padding: 10px 20px !important ;
+    border: none !important ;
+    border-radius: 5px !important ;
+    cursor: pointer !important ;
+  }
+  
+  .btn:hover {
+    background-color: rgba(85, 52, 52, 0.5) !important ;
+  }
+  
+  .game-over {
+    background-color: red !important ;
+    opacity: 0.8 !important ;
+  }
+  
+  .red {
+    background-color: red !important ;
+  }
+  
+  .green {
+    background-color: green !important ;
+  }
+  
+  .blue {
+    background-color: blue !important ;
+  }
+  
+  .yellow {
+    background-color: yellow !important ;
+  }
+  
+  .purple {
+    background-color: purple !important ;
+  }
+  
+  .orange {
+    background-color: rgb(254, 168, 9) !important ;
+  }
+  
+  .pink {
+    background-color: rgb(251, 8, 190) !important ;
+  }
+  
+  .white {
+    background-color: rgb(255, 255, 255) !important ;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px rgb(59, 52, 52) !important ;
+    background-color: grey !important ;
+  }
+  
+  header {
+    background-color: #011F3F !important ;
+    padding: 20px 0 !important ;
+  }
+  
+  #score {
+    font-size: 1.5rem !important ;
+    margin: 0 !important ;
+  }
+  
+  #score-value {
+    color: #0b0a00 !important ;
+  }
+  
+  .level-btn {
+    background-color: transparent !important ;
+    padding: 10px 20px !important ;
+    font-size: 1rem !important ;
+    border: 2px solid #1a31c6 !important ;
+    border-radius: 5px !important ;
+    color: #000000 !important ;
+    cursor: pointer !important ;
+    margin: 5px !important ;
+    transition: background-color 0.2s, border-color 0.2s !important ;
+  }
+  
+  .level-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important ;
+    border-color: #8455f3 !important ;
+  }
+  
+
+  .w {
+    background-image: url("../image/tom1.png");
+  }
+  
+  .a {
+    background-image: url("../image/tom2.png");
+  }
+  
+  .s {
+    background-image: url("../image/tom3.png");
+  }
+  
+  .d {
+    background-image: url("../image/tom4.png");
+  }
+  
+  .j {
+    background-image: url("../image/snare.png");
+  }
+  
+  .k {
+    background-image: url("../image/crash.png");
+  }
+  
+  .l {
+    background-image: url("../image/kick.png");
+  }
+  
+  .set {
+    margin: 10% auto;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+  

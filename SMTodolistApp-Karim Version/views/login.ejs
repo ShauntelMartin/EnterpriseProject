@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/style.css" rel="stylesheet"/>
+  <title>My Todo List App</title>
+</head>
+<body>
+    <div class="container">
+      <div class="col-4"></div>
+      <div class="col-4">
+        <h3><%= name %></h3>
+        <form action="/login" method="POST">
+          <input type="text" id="username" name="username" placeholder="Enter your username">   
+          <input type="text" id="password" name="password" placeholder="Enter your password">
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="col-4"></div>
+    </div>
+
+<script src="/client.js"></script>
+</body>
+</html>

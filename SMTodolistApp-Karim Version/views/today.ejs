@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/style.css" rel="stylesheet"/>
+  <title>My Todo List App</title>
+</head>
+<body>
+  <%- include("partials/navbar.ejs") %>
+  <div class="container">
+    <div id="myDIV" class="header">
+      <h2><%= name %></h2>
+      <input type="text" id="myInput" placeholder="Title...">
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+    <div>
+      <ul id="myUL">
+        <!-- <% items.forEach(function(item) { %>
+          <li><%= item %></li>
+        <% }); %> -->
+      </ul>
+    </div>      
+  </div>
+  
+  <script src="/client.js"></script>
+</body>
+</html>
